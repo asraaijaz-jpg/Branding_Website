@@ -1,5 +1,5 @@
 import React  from 'react';
-import './Style.css';
+import './Style.scss';
 import { useParams } from 'react-router';
 
 const Dynamic_Routing = (props) => {
