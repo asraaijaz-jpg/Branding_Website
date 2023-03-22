@@ -1,25 +1,30 @@
 import logo from './logo.svg';
 import './App.css';
 import Header from './Components/Header';
-import {BrowserRouter , Route , Link , Routes} from 'react-router-dom';
+import {BrowserRouter , Route , Routes} from 'react-router-dom';
 import Home from './Components/Home';
 import About from './Components/About';
 import Contact from './Components/Contact';
+import Dynamic_Routing from './Components/Dynamic_Routing';
 
 function App() {
   return (
     <div className="App">
 
       <BrowserRouter>
+
+      <Header/>
+      
       <Routes>
 
         <Route path='/' element={<Home/>}/>
         <Route path='/about' element={<About/>}/>
         <Route path='/contact' element={<Contact/>}/>
-
+        <Route path='/product_through_Dynamic_Routing/:id' element={<Dynamic_Routing/>}/>
+        <Route path='*' element={<div>This Page Is Not Found</div>}/>
       </Routes>
       </BrowserRouter>
-      <Header/>
+
     </div>
   );
 }
