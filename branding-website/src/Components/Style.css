@@ -1,0 +1,21 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+/* ///////////////////////////////////////  Header //////////////////////////////// */
+
+nav{
+    background-color: white;
+    box-shadow: 0 0 10px rgb(0,0,0,0.456);
+    padding: 3%;
+}
+
+nav > a{
+    font:1.3rem cursive;
+    font-weight: 800;
+    color: rgb(40, 40, 245);
+    text-decoration: none;
+    margin: 0 1rem;
+}
