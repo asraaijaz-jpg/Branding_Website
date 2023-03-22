@@ -11,19 +11,30 @@ function App() {
   return (
     <div className="App">
 
-      <BrowserRouter>
+    <BrowserRouter>
+    
+    <Header/>
+    
+    </BrowserRouter>
 
-      <Header/>
-      
+
+
+
+
+
+
+
+{/* ////////////////////////////////////  For Learning Purpose /////////////////////////////////// */}
+      {/* <BrowserRouter>
+      <Header/>      
       <Routes>
-
         <Route path='/' element={<Home/>}/>
         <Route path='/about' element={<About/>}/>
         <Route path='/contact' element={<Contact/>}/>
         <Route path='/product_through_Dynamic_Routing/:id' element={<Dynamic_Routing/>}/>
         <Route path='*' element={<div>This Page Is Not Found</div>}/>
       </Routes>
-      </BrowserRouter>
+      </BrowserRouter> */}
 
     </div>
   );
