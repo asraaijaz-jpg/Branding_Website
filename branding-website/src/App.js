@@ -6,15 +6,22 @@ import Home from './Components/Home';
 import About from './Components/About';
 import Contact from './Components/Contact';
 import Dynamic_Routing from './Components/Dynamic_Routing';
+import Dummy from './Components/PracticeDummy';
+
 
 function App() {
   return (
     <div className="App">
 
     <BrowserRouter>
+
+    {/* <Header/> */}
     
-    <Header/>
-    
+    <Routes>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/dummy' element={<Dummy/>}/>
+
+    </Routes>
     </BrowserRouter>
 
 

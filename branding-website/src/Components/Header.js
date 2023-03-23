@@ -8,7 +8,7 @@ const Header = () => {
 
 <nav>
 
-  <h1>IT Branding</h1>
+  <h1>TECHSTAR</h1>
 
   <main>
     <Link to='/'>Home</Link>
