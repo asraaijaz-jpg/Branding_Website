@@ -3,6 +3,7 @@ import './Style.scss';
 import {Link} from 'react-router-dom';
 import {HashLink} from 'react-router-hash-link';
 
+
 const Header = () => {
   return (
     <div>
@@ -12,11 +13,11 @@ const Header = () => {
   <h1>TECHSTAR</h1>
 
   <main>
-    <HashLink to='/#home'>Home</HashLink>
-    <Link to='/contact'>Contact</Link>
-    <HashLink to='/#about'>About</HashLink>
-    <HashLink to='/#brands'>Brands</HashLink>
-    <Link to='/services'>Services</Link>
+    <HashLink to={'/#home'}>Home</HashLink>
+    <Link to={'/contact'}>Contact</Link>
+    <HashLink to={'/#about'}>About</HashLink>
+    <HashLink to={'/#brands'}>Brands</HashLink>
+    <Link to={'/services'}>Services</Link>
   </main>
   
 </nav>

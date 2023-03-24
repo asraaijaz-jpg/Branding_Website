@@ -8,6 +8,7 @@ import Contact from './Components/Contact';
 import Dynamic_Routing from './Components/Dynamic_Routing';
 import Dummy from './Components/PracticeDummy';
 import Footer from './Components/Footer';
+import Services from './Components/Services';
 
 
 function App() {
@@ -17,10 +18,12 @@ function App() {
     <BrowserRouter>
 
     <Header/>
-    
+
     <Routes>
         <Route path='/' element={<Home/>}/>
-        <Route path='/dummy' element={<Dummy/>}/>
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/services" element={<Services />} />
+        {/* <Route path='/dummy' element={<Dummy/>}/> */}
     </Routes>
 
    <Footer/>
