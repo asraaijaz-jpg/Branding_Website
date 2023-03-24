@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Header from './Components/Header';
-import {BrowserRouter , Route , Routes} from 'react-router-dom';
+import {BrowserRouter , Route , Routes , HashRouter} from 'react-router-dom';
 import Home from './Components/Home';
 import About from './Components/About';
 import Contact from './Components/Contact';
@@ -16,7 +16,8 @@ function App() {
   return (
     <div className="App">
 
-    <BrowserRouter>
+   
+    <HashRouter basename="/">
     <Header/>
 
     <Routes>
@@ -27,7 +28,8 @@ function App() {
     </Routes>
 
    <Footer/>
-    </BrowserRouter>
+   </HashRouter>
+  
 
 
 
