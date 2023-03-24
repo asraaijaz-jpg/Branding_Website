@@ -9,6 +9,7 @@ import Dynamic_Routing from './Components/Dynamic_Routing';
 import Dummy from './Components/PracticeDummy';
 import Footer from './Components/Footer';
 import Services from './Components/Services';
+import "./Components/mediaquery.scss";
 
 
 function App() {
@@ -26,7 +27,7 @@ function App() {
         {/* <Route path='/dummy' element={<Dummy/>}/> */}
     </Routes>
 
-   {/* <Footer/> */}
+   <Footer/>
     </BrowserRouter>
 
 

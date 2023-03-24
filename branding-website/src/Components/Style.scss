@@ -306,25 +306,39 @@ align-items:center;
 // ////////////////////////  Footer  ///////////////////////////////////////////////////
 
 
-footer{
-    // width: 100%;
-    // height: 100%;
-    // background-color: $dark;
-    // color: white;
-    // padding: 50px;
-    // display: flex;
-    // align-items: center;
-    // justify-content: center;
+.footer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 
-    // >.footer1{
-    //     text-transform: uppercase;
-    //     line-height: 300%;
-    //     font: 400 1rem $text2;
-    //     display: flex;
-    //     flex-direction: column;
-    //     float: left;
-    // }
+    .footer1{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 2rem;
+        text-transform: uppercase;
+        font:400 1.5rem $text2;
+    }
+    .footer2{
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 2rem;
+        text-transform: uppercase;
+        font:400 1rem $text2;
+    }
+    svg{
+        font-size: 3rem;
+        color: black;
+    }
 
+    >a:hover{
+      color: red;  
+    }
 }
 
 
