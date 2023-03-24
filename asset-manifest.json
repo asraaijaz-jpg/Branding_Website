@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Branding_Website/static/css/main.7ca52bfd.css",
-    "main.js": "/Branding_Website/static/js/main.ca4aa714.js",
+    "main.js": "/Branding_Website/static/js/main.10379ee5.js",
     "static/js/787.89b9490d.chunk.js": "/Branding_Website/static/js/787.89b9490d.chunk.js",
     "static/media/1.png": "/Branding_Website/static/media/1.9741230b4b4fe8213efa.png",
     "static/media/4.jpg": "/Branding_Website/static/media/4.9bae92981bff135650c7.jpg",
@@ -10,11 +10,11 @@
     "static/media/logo.svg": "/Branding_Website/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Branding_Website/index.html",
     "main.7ca52bfd.css.map": "/Branding_Website/static/css/main.7ca52bfd.css.map",
-    "main.ca4aa714.js.map": "/Branding_Website/static/js/main.ca4aa714.js.map",
+    "main.10379ee5.js.map": "/Branding_Website/static/js/main.10379ee5.js.map",
     "787.89b9490d.chunk.js.map": "/Branding_Website/static/js/787.89b9490d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7ca52bfd.css",
-    "static/js/main.ca4aa714.js"
+    "static/js/main.10379ee5.js"
   ]
 }
