@@ -12,35 +12,36 @@
 }
 
 /* ///////////////////////////////////////  Header //////////////////////////////// */
-
-nav{
+nav {
     width: 100%;
     padding: 1rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: sticky;
+    position: fixed;
     background-color: $first;
-    top:0%;
-    z-index:10;
-    color:$second;
-}
-
-nav  main {
-    width:70%;
-    display: flex;
-    justify-content: right;
-}
-
-nav main Link {
-    color: $dark;
-    margin: 1rem;
- 
-    &:hover{
-        color: $third;
+    top: 0%;
+    z-index: 10;
+  
+    > h1 {
+      text-transform: uppercase;
     }
-}
-
+  
+    > main {
+      width: 70%;
+      display: flex;
+      justify-content: flex-end;
+  
+      > a {
+        color: $dark;
+        margin: 1rem;
+  
+        &:hover {
+          color: $third;
+        }
+      }
+    }
+  }
 
 
 // ////////////////////////////////////////  Home Page /////////////////////////////////////////////////
