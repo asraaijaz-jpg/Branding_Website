@@ -7,7 +7,7 @@ import img2 from '../Assets/4.jpg';
 const Services = () => {
   return (
     <div className='services'>
-<Carousel 
+<Carousel className='carousel'
 infiniteLoop 
 autoPlay 
 showStatus={false}
